@@ -39,10 +39,10 @@
 .navbar-wagon-link {
   color: #616668;
   font-size: 14px;
-}
-.navbar-wagon-link:hover {
-  color: #da552f;
-  text-decoration: none;
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
 }
 
 /* Dropdown menu */
