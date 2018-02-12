@@ -1,0 +1,17 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div id="about">
+  <div class="container">
+    <h1>This template is built with <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline text-center">
+      <% data.users1.each_with_index do |user, index| %>
+          <li>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+            <h3><% user.name.capitalize %></h3>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
